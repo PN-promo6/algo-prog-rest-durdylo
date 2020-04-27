@@ -14,6 +14,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.dataService.getAlbums();
+    this.dataService.getConcertTours();
+    this.dataService.getLabels();
+    this.dataService.getMembers();
+
   }
 
 }
